@@ -47,3 +47,11 @@ cevap = st.text_input("Tahminini buraya yaz:")
 if cevap:
     # Ne yazarsa yazsın güzel bir mesaj gösterelim
     st.write(f"'{cevap}' da her özelliğin gibi benim için çok eşsiz ama ben seninle ilgili herşeye çok hayranım sevgilim")
+    # Araya ince bir ayırıcı çizgi çeker
+st.markdown("---")
+
+# Kapanış başlığı ve mesajı
+st.subheader("Son Bir Şey... ")
+st.write("Değerli ve minnoş bebeğim bitanecik aşkım hayat önümüze ne koyarsa koysun her türlü durumda seni asla sevmeyi bırakmayacağım. Sen benim biriciğim minnoşum herşeyimsin özlem. SENİNLE EVLENMEK İSTİYORUM ÇOOOK ÖPÜYORUM AŞKIM")
+# Mesajı renkli, vurgulu bir kutu içinde göstermek için:
+st.info("Seni çok seviyorum! ❤️")
